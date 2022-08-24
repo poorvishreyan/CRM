@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Com.CRM.Quotes.VerifyQuotesTab">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="VerifyQuotesTabTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Com.CRM.Quotes.VerifyQuotesTab -->
+      <class name="Com.CRM.Invoices.VerifyInvoicesTab">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="VerifyInvoiceTabTest"/>
+        </methods>
+      </class> <!-- Com.CRM.Invoices.VerifyInvoicesTab -->
+      <class name="Com.CRM.SalesOrders.VerifySalesOrdersTab">
+        <methods>
+          <include name="VerifySalesOrdersTabTest"/>
+        </methods>
+      </class> <!-- Com.CRM.SalesOrders.VerifySalesOrdersTab -->
+      <class name="Com.CRM.PurchaseOrders.VerifyPurchaseOrdersTab">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="VerifyPurchaseOrdrersTabTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Com.CRM.PurchaseOrders.VerifyPurchaseOrdersTab -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

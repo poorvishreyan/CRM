@@ -1,0 +1,25 @@
+
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="Com.CRM.Cases.VerifyCasesTab"/>
+      <class name="Com.CRM.Potentials.VerifyPotentialsTab"/>
+      <class name="Com.CRM.PriceBooks.VerifyPriceBooksTab"/>
+      <class name="Com.CRM.Solutions.VerifySolutionsTab"/>
+      <class name="Com.CRM.Activities.VerifyActivitiesTab"/>
+      <class name="Coom.CRM.Campaign.VerifyCampaign"/>
+      <class name="Com.CRM.PurchaseOrders.VerifyPurchaseOrdersTab"/>
+      <class name="Com.CRM.Leads.VerifyLeadsTab"/>
+      <class name="Com.CRM.Products.VerifyProductsTab"/>
+      <class name="Com.CRM.Contacts.VerifyContacts"/>
+      <class name="Com.CRM.Invoices.VerifyInvoicesTab"/>
+      <class name="Com.CRM.Vendors.VerifyVendorsTab"/>
+      <class name="Com.CRM.Dashboards.VerifyDashboardTab"/>
+      <class name="Com.CRM.Quotes.VerifyQuotesTab"/>
+      <class name="Com.CRM.SalesOrders.VerifySalesOrdersTab"/>
+      <class name="Com.CRM.Reports.VerifyReportsTab"/>
+      <class name="Com.CRM.Accounts.VerifyAccountsTab"/>
+      <class name="Com.CRM.Forecasts.VerifyForecastsTab"/>
+    </classes>
+  </test> 
+</suite> 
