@@ -13,6 +13,7 @@ public class ActivitiesPage {
 	public ActivitiesPage() {
 		PageFactory.initElements(BaseTest.driver, this);
 	}
+	//
 
 
 	public WebElement getActivitiesTextAddress() {
