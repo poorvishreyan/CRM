@@ -15,6 +15,7 @@ public class VerifyActivitiesTab extends BaseTest{
 		
 		ValidSignIn vs = new ValidSignIn();
 		vs.validSignInTest();
+		//
 		
 		
 		HomePage hp = new HomePage();
